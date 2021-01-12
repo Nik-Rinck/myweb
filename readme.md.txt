@@ -1,0 +1,1 @@
+This is a website for all my assignments in javascript
