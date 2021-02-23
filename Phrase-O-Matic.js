@@ -1,4 +1,4 @@
-function makePhrases() 
+function makePhrases()
 {
 	var words1 = ["24/7", "multi-tier", "30,000 foot", "B-to-B", "win-win"];
 	var words2 = ["empowered", "value-added", "oriented", "focused", "aligned"];
@@ -9,7 +9,6 @@ function makePhrases()
 	var rand3 = Math.floor(Math.random() * words3.length);
 	
 	var phrase = words1[rand1] + " " + words2[rand2] + " " + words3[rand3];
-alert(phrase);
+	alert(phrase);
 }
-makePhrases();
-	
+	makePhrases();
